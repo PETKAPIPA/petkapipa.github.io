@@ -18,7 +18,7 @@ body {
 .header__top-style {
 	background: #7c7c7ccc;
 	position: fixed;
-	height: 10vh;
+	height: 8vh;
 	width: 100vw;
 	border-bottom: solid 0.3vh #5c5c5c;
 	filter: blur(0.11vh);
@@ -29,7 +29,7 @@ body {
 
 .header__top {
 	position: fixed;
-	height: 10vh;
+	height: 8vh;
 	width: 100vw;
 	display: flex;
 	align-items: center;
@@ -37,11 +37,11 @@ body {
 
 .logo {
 	color: #223530ce;
-	font-size: 8vh;
+	font-size: 6vh;
 	text-decoration: none;
 	margin-left: 5vh;
 	/* background: #5c5c5c; */
-	padding: 1vh 2vh 0 2vh;
+	padding: 0.5vh 2vh 0 2vh;
 	border-radius: 2vh;
 	transition: background 0.5s, filter 0.5s;
 }
@@ -61,11 +61,11 @@ body {
 
 .top-nav__but {
 	color: #223530ce;
-	font-size: 6vh;
+	font-size: 4vh;
 	text-decoration: none;
 	margin-left: 5vh;
 	/* background: #5c5c5c; */
-	padding: 1vh 2vh 0 2vh;
+	padding: 1vh 2vh 0.5vh 2vh;
 	border-radius: 2vh;
 	transition: background 0.5s, filter 0.5s;
 }
