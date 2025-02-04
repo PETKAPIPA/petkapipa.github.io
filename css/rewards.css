@@ -1,0 +1,105 @@
+.levels-menu {
+    overflow-y: auto;
+    /* background: #6e6e6e93; */
+	/* outline: solid 0.3vh #5c5c5c; */
+    background: #7c7c7c;
+	outline: solid 0.31vh #646464;
+    clip-path: inset(0 round 2vh);
+    width: 23vw;
+    min-height: 50vh;
+    max-height: 80vh;
+    /* filter: blur(0.15vh); */
+    -webkit-box-shadow: 0px 0px 26px 0px rgba(34, 60, 80, 0.2);
+	-moz-box-shadow: 0px 0px 26px 0px rgba(34, 60, 80, 0.2);
+	box-shadow: 0px 0px 26px 0px rgba(34, 60, 80, 0.2);
+    color: #223530ce;
+    padding: 0 2vh;
+}
+
+
+.content-menu {
+    overflow-y: auto;
+    /* background: #6e6e6e93; */
+	/* outline: solid 0.3vh #5c5c5c; */
+    background: #7c7c7c;
+	outline: solid 0.31vh #646464;
+    clip-path: inset(0 round 2vh);
+    width: 60vw;
+    margin-left: 5vw;
+    min-height: 50vh;
+    max-height: 80vh;
+    /* filter: blur(0.15vh); */
+    -webkit-box-shadow: 0px 0px 26px 0px rgba(34, 60, 80, 0.2);
+	-moz-box-shadow: 0px 0px 26px 0px rgba(34, 60, 80, 0.2);
+	box-shadow: 0px 0px 26px 0px rgba(34, 60, 80, 0.2);
+    color: #223530ce;
+    padding: 0 2vh;
+}
+
+.header__content {
+    padding: 0 7vh;
+    padding-top: 12vh;
+    display: flex;
+    /* justify-content: center; */
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    max-width: fit-content;
+    transition: filter 1s;
+}
+
+.level {
+    margin: 2vh 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.level-name {
+    display: inline;
+    font-size: 4vh;
+    font-weight: 700;
+}
+
+.level-name-span {
+    color: #1b4d40e0;
+    padding: 0 1vh;
+}
+.tr {
+    margin-bottom: 1vh;
+}
+
+.sub-punkt {
+    font-size: 4vh;
+    font-weight: 700;
+    margin-left: 3vh;
+}
+
+a:hover {
+    filter: blur(0.15vh);
+    transition: filter 0.2s;
+}
+
+.levels-menu::-webkit-scrollbar-track {
+    background: #00000000;
+}
+.levels-menu::-webkit-scrollbar-thumb {
+    background: #5f5f5fde; 
+    border-radius: 6px;
+}
+.levels-menu::-webkit-scrollbar {
+    width: 1vh;
+}
+
+.content-menu::-webkit-scrollbar-track {
+    background: #00000000;
+}
+.content-menu::-webkit-scrollbar-thumb {
+    background: #5f5f5fde; 
+    border-radius: 6px;
+}
+.content-menu::-webkit-scrollbar {
+    width: 1vh;
+}
